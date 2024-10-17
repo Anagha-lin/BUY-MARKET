@@ -1,0 +1,13 @@
+import ViteLogo from './assets/vite.svg';
+
+function Header() {
+  return (
+    <header className="flex items-center p-4">
+      <img src={ViteLogo} alt="Vite Logo" className="w-12 h-12" />
+      <h1 className="ml-4 text-xl font-bold">Welcome to Buy-Market</h1>
+    </header>
+  );
+}
+
+export default Header;
+
